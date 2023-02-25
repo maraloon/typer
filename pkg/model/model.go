@@ -161,6 +161,6 @@ func (m Model) View() string {
 		asciigraph.Precision(2),
 		asciigraph.SeriesColors(m.Theme.GraphColor()),
 	)
-	s += fmt.Sprintf("\n\n%s\n\nWPM: %.2f\n", graph, wpm)
+	s += fmt.Sprintf("\n\n%s\n\nWPM: %.2f\n", wpm)
 	return s
 }
